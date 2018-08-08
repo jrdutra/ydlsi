@@ -1,0 +1,9 @@
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Release\ydlsi.exe.config
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Release\ydlsi.exe
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Release\ydlsi.pdb
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.Form1.resources
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.Properties.Resources.resources
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.csproj.GenerateResource.cache
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.csproj.CoreCompileInputs.cache
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.exe
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.pdb
