@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace ydlsi
 {
@@ -31,9 +32,14 @@ namespace ydlsi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string strCmdText;
-            strCmdText = "start youtube-dl \"" + txtUrl.Text + "\"";
-            System.Diagnostics.Process.Start("CMD.exe", strCmdText);
+            ProcessStartInfo startInfo = new ProcessStartInfo("youtube-dl.exe");
+            startInfo.WindowStyle = ProcessWindowStyle.Normal;
+            string ytdl_args;
+            ytdl_args = "\"" + txtUrl.Text + "\"";
+            startInfo.Arguments = ytdl_args;
+
+
+            Process.Start(startInfo);
         }
     }
 }
