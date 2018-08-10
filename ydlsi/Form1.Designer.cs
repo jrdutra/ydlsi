@@ -36,9 +36,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblDir = new System.Windows.Forms.Label();
             this.btnDir = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -110,15 +111,15 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Out dir:";
             // 
-            // label5
+            // lblDir
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(44, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 13);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "current dir";
+            this.lblDir.AutoSize = true;
+            this.lblDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDir.Location = new System.Drawing.Point(44, 26);
+            this.lblDir.Name = "lblDir";
+            this.lblDir.Size = new System.Drawing.Size(65, 13);
+            this.lblDir.TabIndex = 7;
+            this.lblDir.Text = "current dir";
             // 
             // btnDir
             // 
@@ -128,10 +129,11 @@
             this.btnDir.TabIndex = 8;
             this.btnDir.Text = "Select";
             this.btnDir.UseVisualStyleBackColor = true;
+            this.btnDir.Click += new System.EventHandler(this.btnDir_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.lblDir);
             this.groupBox2.Controls.Add(this.btnDir);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(8, 75);
@@ -171,9 +173,10 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblDir;
         private System.Windows.Forms.Button btnDir;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
 

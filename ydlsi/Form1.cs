@@ -41,5 +41,13 @@ namespace ydlsi
 
             Process.Start(startInfo);
         }
+
+        private void btnDir_Click(object sender, EventArgs e)
+        {
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                lblDir.Text = folderBrowserDialog1.SelectedPath;
+            }
+        }
     }
 }
