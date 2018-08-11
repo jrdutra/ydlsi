@@ -35,7 +35,7 @@ namespace ydlsi
             ProcessStartInfo startInfo = new ProcessStartInfo("youtube-dl.exe");
             startInfo.WindowStyle = ProcessWindowStyle.Normal;
             string ytdl_args;
-            ytdl_args = "\"" + txtUrl.Text + "\"";
+            ytdl_args = "-o \"" + lblDir.Text + "\\%(title)s.%(ext)s\" " + txtUrl.Text;
             startInfo.Arguments = ytdl_args;
 
 

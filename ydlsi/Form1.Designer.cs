@@ -59,7 +59,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(8, 138);
+            this.button2.Location = new System.Drawing.Point(8, 141);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(433, 23);
             this.button2.TabIndex = 5;
@@ -117,13 +117,13 @@
             this.lblDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDir.Location = new System.Drawing.Point(44, 26);
             this.lblDir.Name = "lblDir";
-            this.lblDir.Size = new System.Drawing.Size(65, 13);
+            this.lblDir.Size = new System.Drawing.Size(25, 13);
             this.lblDir.TabIndex = 7;
-            this.lblDir.Text = "current dir";
+            this.lblDir.Text = "C:\\";
             // 
             // btnDir
             // 
-            this.btnDir.Location = new System.Drawing.Point(367, 19);
+            this.btnDir.Location = new System.Drawing.Point(367, 21);
             this.btnDir.Name = "btnDir";
             this.btnDir.Size = new System.Drawing.Size(60, 23);
             this.btnDir.TabIndex = 8;
@@ -147,7 +147,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 167);
+            this.ClientSize = new System.Drawing.Size(450, 171);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
