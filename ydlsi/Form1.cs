@@ -53,7 +53,7 @@ namespace ydlsi
                     out_dir = folderBrowserDialog1.SelectedPath,
                 });
                 string json = JsonConvert.SerializeObject(_data.ToArray());
-                System.IO.File.WriteAllText(".\\info.txt", json);
+                System.IO.File.WriteAllText(".\\info.json", json);
                 btnDir.Text = folderBrowserDialog1.SelectedPath;
             }
         }
