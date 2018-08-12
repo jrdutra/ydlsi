@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\button.png" />
+    <None Include="Resources\blue_button.png" />
     <Content Include="Treetog-I-Folder-Downloads.ico" />
   </ItemGroup>
   <ItemGroup />
