@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using Newtonsoft.Json;
+using System.IO;
+using Newtonsoft.Json.Linq;
+
 
 namespace ydlsi
 {
@@ -29,6 +32,17 @@ namespace ydlsi
         {
             txtUrl.Text = "";
             txtUrl.Text = Clipboard.GetText();
+            //Lendo Json
+            string path = ".\\info.json";
+            string json_string;
+            if (File.Exists(path))
+            {
+                json_string = File.ReadAllText(path);
+                Data data = JsonConvert.DeserializeObject<Data>(json_string);
+                btnDir.Text = data.out_dir;
+            }
+            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,12 +61,9 @@ namespace ydlsi
         {
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
-                List<Data> _data = new List<Data>();
-                _data.Add(new Data()
-                                {
-                                    out_dir = folderBrowserDialog1.SelectedPath,
-                                });
-                string json = JsonConvert.SerializeObject(_data.ToArray());
+                Data _data = new Data();
+                _data.out_dir = folderBrowserDialog1.SelectedPath;
+                string json = JsonConvert.SerializeObject(_data);
                 System.IO.File.WriteAllText(".\\info.json", json);
                 btnDir.Text = folderBrowserDialog1.SelectedPath;
             }
