@@ -83,12 +83,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 145);
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.BackgroundImage = global::ydlsi.Properties.Resources.button;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Adobe Gothic Std B", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(8, 138);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(421, 23);
+            this.button2.Size = new System.Drawing.Size(433, 42);
             this.button2.TabIndex = 5;
             this.button2.Text = "Download";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
@@ -114,7 +120,7 @@
             this.btnDir.Name = "btnDir";
             this.btnDir.Size = new System.Drawing.Size(421, 23);
             this.btnDir.TabIndex = 8;
-            this.btnDir.Text = "Select";
+            this.btnDir.Text = "C:\\";
             this.btnDir.UseVisualStyleBackColor = true;
             this.btnDir.Click += new System.EventHandler(this.btnDir_Click);
             // 
@@ -134,7 +140,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 180);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(450, 189);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
