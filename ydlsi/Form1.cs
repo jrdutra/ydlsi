@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace ydlsi
 {
@@ -46,8 +47,20 @@ namespace ydlsi
         {
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
+                List<data> _data = new List<data>();
+                _data.Add(new data()
+                {
+                    out_dir = folderBrowserDialog1.SelectedPath,
+                });
+                string json = JsonConvert.SerializeObject(_data.ToArray());
+                System.IO.File.WriteAllText(".\\info.txt", json);
                 btnDir.Text = folderBrowserDialog1.SelectedPath;
             }
         }
+    }
+
+    public class data
+    {
+        public string out_dir { get; set; }
     }
 }

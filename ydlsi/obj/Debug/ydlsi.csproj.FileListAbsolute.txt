@@ -18,3 +18,6 @@ C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Debug\ydlsi.csproj.Genera
 C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Debug\ydlsi.csproj.CoreCompileInputs.cache
 C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Debug\ydlsi.exe
 C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Debug\ydlsi.pdb
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Debug\ydlsi.csproj.CopyComplete
