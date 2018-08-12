@@ -47,11 +47,11 @@ namespace ydlsi
         {
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
-                List<data> _data = new List<data>();
-                _data.Add(new data()
-                {
-                    out_dir = folderBrowserDialog1.SelectedPath,
-                });
+                List<Data> _data = new List<Data>();
+                _data.Add(new Data()
+                                {
+                                    out_dir = folderBrowserDialog1.SelectedPath,
+                                });
                 string json = JsonConvert.SerializeObject(_data.ToArray());
                 System.IO.File.WriteAllText(".\\info.json", json);
                 btnDir.Text = folderBrowserDialog1.SelectedPath;
@@ -59,7 +59,7 @@ namespace ydlsi
         }
     }
 
-    public class data
+    public class Data
     {
         public string out_dir { get; set; }
     }

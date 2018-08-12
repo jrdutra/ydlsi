@@ -8,3 +8,6 @@ C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.csproj.Core
 C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.exe
 C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.pdb
 C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.csprojAssemblyReference.cache
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Release\Newtonsoft.Json.dll
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\bin\Release\Newtonsoft.Json.xml
+C:\Users\jrdut\Desktop\C#\YDLSI-Public\ydlsi\ydlsi\obj\Release\ydlsi.csproj.CopyComplete
