@@ -46,7 +46,7 @@ namespace ydlsi
         {
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
-                lblDir.Text = folderBrowserDialog1.SelectedPath;
+                btnDir.Text = folderBrowserDialog1.SelectedPath;
             }
         }
     }
